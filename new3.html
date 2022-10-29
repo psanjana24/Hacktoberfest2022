@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        meter {
+            width: 100%;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Your Skills</legend>
+        <dl>
+            <dt>HTML 80%</dt>
+            <dd><meter min="1" max="100" value="80"></meter></dd>
+            <dt>CSS 100%</dt>
+            <dd><meter min="1" max="100" value="100"></meter></dd>
+            <dt>JavaScript 20%</dt>
+            <dd><meter min="1" max="100" value="20"></meter></dd>
+        </dl>
+    </fieldset>
+    <fieldset>
+        <legend>Password Strength</legend>
+        <dl>
+            <dt>Strong Password</dt>
+            <dd><meter min="1" max="100" low="0" high="0" value="100"></meter></dd>
+            <dt>Weak Password</dt>
+            <dd><meter min="1" max="100" value="100" low="40" high="80"></meter></dd>
+            <dt>Poor Password</dt>
+            <dd><meter min="1" max="100" value="100" low="60" high="80"></meter></dd>
+        </dl>
+    </fieldset>
+</body>
+</html>
